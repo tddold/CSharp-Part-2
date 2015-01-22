@@ -16,18 +16,18 @@ Homework: Arrays
 
 _Example:_
 
-`{2, 1, 1, 2, 3, 3,`**`2, 2, 2`**`, 1}` -> `{2, 2, 2}`
-
-<pre>
-	{2, 1, 1, 2, 3, 3, <b>2, 2, 2</b>, 1}
-</pre> -> `{2, 2, 2}`
+|              input              |  output   |
+|---------------------------------|-----------|
+| {2, 1, 1, 2, 3, 3,`2, 2, 2`, 1} | {2, 2, 2} |
 
 ### Problem 5.
 *	Write a program that finds the maximal increasing sequence in an array.
 
 _Example:_
 
-`{3, `**`2, 3, 4`**`, 2, 2, 4}` -> `{2, 3, 4}`
+|         input          |  output   |
+|------------------------|-----------|
+| {3,`2, 3, 4`, 2, 2, 4} | {2, 3, 4} |
 
 ### Problem 6.
 *	Write a program that reads two integer numbers `N` and `K` and an array of `N` elements from the console.
