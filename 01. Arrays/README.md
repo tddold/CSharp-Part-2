@@ -88,7 +88,7 @@ _Example:_
 
 _Example:_
 
-|            array           |  S |      output     |
+|         input array        | S  |      output     |
 |:--------------------------:|:--:|:---------------:|
 | `{2, 1, 2, 4, 3, 5, 2, 6}` | 14 | `yes (1+2+5+6)` |
 
@@ -110,20 +110,24 @@ _Example:_
 *	Write a program that reads a number `N` and generates and prints all the permutations of the numbers [`1 … N`].
 
 _Example:_
-
-| N |   output   |
-|---|------------|
-| 3 | {`1, 2, 3`} {`1, 3, 2`} {`2, 1, 3`} {`2, 3, 1`} {`3, 1, 2`} {`3, 2, 1`} |
+| N |                                  output                                 |
+|:-:|:-----------------------------------------------------------------------:|
+| 3 | `{1, 2, 3}` `{1, 3, 2}` `{2, 1, 3}` `{2, 3, 1}` `{3, 1, 2}` `{3, 2, 1}` |
 
 ### Problem 20. Variations of set
-*	Write a program that reads two numbers N and K and generates all the variations of K elements from the set [`1..N`].
+*	Write a program that reads two numbers `N` and `K` and generates all the variations of `K` elements from the set [`1..N`].
 
 _Example:_
-	N = 3, K = 2 ? {1, 1}, {1, 2}, {1, 3}, {2, 1}, {2, 2}, {2, 3}, {3, 1}, {3, 2}, {3, 3}
+
+| N | K |                                      output                                      |
+|:-:|:-:|:--------------------------------------------------------------------------------:|
+| 3 | 2 | `{1, 1}` `{1, 2}` `{1, 3}` `{2, 1}` `{2, 2}` `{2, 3}` `{3, 1}` `{3, 2}` `{3, 3}` |
 
 ### Problem 21. Combinations of set
-*	Write a program that reads two numbers N and K and generates all the combinations of K distinct elements from the set [`1..N`].
+*	Write a program that reads two numbers `N` and `K` and generates all the combinations of `K` distinct elements from the set [`1..N`].
 
 _Example:_
 
-	N = 5, K = 2 ? {1, 2}, {1, 3}, {1, 4}, {1, 5}, {2, 3}, {2, 4}, {2, 5}, {3, 4}, {3, 5}, {4, 5}
+| N | K |                                          output                                           |
+|:-:|:-:|:-----------------------------------------------------------------------------------------:|
+| 5 | 2 | `{1, 2}` `{1, 3}` `{1, 4}` `{1, 5}` `{2, 3}` `{2, 4}` `{2, 5}` `{3, 4}` `{3, 5}` `{4, 5}` |
