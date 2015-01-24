@@ -113,7 +113,7 @@ _Example:_
 
 | N |                                  output                                 |
 |:-:|:-----------------------------------------------------------------------:|
-| 3 | `{1, 2, 3}`</br>`{1, 3, 2}`</br>`{2, 1, 3}`</br>`{2, 3, 1}`</br>`{3, 1, 2}`</br>`{3, 2, 1}` |
+| 3 | `{1, 2, 3}` <br> `{1, 3, 2}` <br> `{2, 1, 3}` <br> `{2, 3, 1}` <br> `{3, 1, 2}` <br> `{3, 2, 1}` |
 
 ### Problem 20. Variations of set
 *	Write a program that reads two numbers `N` and `K` and generates all the variations of `K` elements from the set [`1..N`].
