@@ -18,10 +18,7 @@ _Example:_
 
 | matrix |   result   |
 |:------:|:----------:|
-| <table><tr><td>ha</td><td>fifi</td><td>ho</td><td>hi</td></tr>
-<tr><td>fo</td><td>ha</td><td>hi</td><td>xx</td></tr>
-<tr><td>xxx</td><td>ho</td><td>ha</td><td>xx</td></tr>
-</table> | ha, ha, ha |
+| <table><tbody><tr><td>ha</td><td>fifi</td><td>ho</td><td>hi</td></tr><tr><td>fo</td><td>ha</td><td>hi</td><td>xx</td></tr><tr><td>xxx</td><td>ho</td><td>ha</td><td>xx</td></tr></tbody></table> | ha, ha, ha |
 
 ### Problem 4. Binary search
 *	Write a program, that reads from the console an array of `N` integers and an integer `K`, sorts the array and using the method `Array.BinSearch()` finds the largest number in the array which is <= `K`. 
