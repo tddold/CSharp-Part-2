@@ -34,7 +34,7 @@ _Examples:_
 *	Write a method that checks if the element at given position in given array of integers is bigger than its two neighbours (when such exist).
 
 ### Problem 6.
-*	Write a method that returns the index of the first element in array that is bigger than its neighbours, or -1, if there’s no such element.
+*	Write a method that returns the index of the first element in array that is bigger than its neighbours, or `-1`, if there’s no such element.
 *	Use the method from the previous exercise.
 
 ### Problem 7.
@@ -47,8 +47,8 @@ _Example:_
 | 256   | 652    |
 
 ### Problem 8.
-*	Write a method that adds two positive integer numbers represented as arrays of digits (each array element arr[i] contains a digit; the last digit is kept in arr[0]).
-*	Each of the numbers that will be added could have up to 10 000 digits.
+*	Write a method that adds two positive integer numbers represented as arrays of digits (each array element `arr[i]` contains a digit; the last digit is kept in `arr[0]`).
+*	Each of the numbers that will be added could have up to `10 000` digits.
 
 ### Problem 9.
 *	Write a method that return the maximal element in a portion of array of integers starting at given index.
@@ -65,25 +65,27 @@ _Hint: Implement first a method that multiplies a number represented as array of
 
 _Example:_
 
-x2 + 5 = 1x2 + 0x + 5 ?
+x<sup>2</sup> + 5 = `1`x<sup>2</sup> + `0`x + `5`	=>	{`5`, `0`, `1`}
 
 ### Problem 12.
-*	Extend the program to support also subtraction and multiplication of polynomials.
+*	Extend the previous program to support also subtraction and multiplication of polynomials.
 
 ### Problem 13.
 *	Write a program that can solve these tasks:
-Reverses the digits of a number
-Calculates the average of a sequence of integers
-Solves a linear equation a * x + b = 0
-		Create appropriate methods.
-		Provide a simple text-based menu for the user to choose which task to solve.
-		Validate the input data:
-The decimal number should be non-negative
-The sequence should not be empty
-a should not be equal to 0
+	*	Reverses the digits of a number
+	*	Calculates the average of a sequence of integers
+	*	Solves a linear equation `a * x + b = 0`
+*	Create appropriate methods.
+*	Provide a simple text-based menu for the user to choose which task to solve.
+*	Validate the input data:
+	*	The decimal number should be non-negative
+	*	The sequence should not be empty
+	*	`a` should not be equal to `0`
 
 ### Problem 14.
-*	Write methods to calculate minimum, maximum, average, sum and product of given set of integer numbers. Use variable number of arguments.
+*	Write methods to calculate `minimum`, `maximum`, `average`, `sum` and `product` of given set of integer numbers.
+*	Use variable number of arguments.
 
 ### Problem 15.*
-*	Modify your last program and try to make it work for any number type, not just integer (e.g. decimal, float, byte, etc.). Use generic method (read in Internet about generic methods in C#).
+*	Modify your last program and try to make it work for any number type, not just integer (e.g. decimal, float, byte, etc.)
+*	Use generic method (read in Internet about generic methods in C#).
