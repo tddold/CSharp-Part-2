@@ -21,7 +21,7 @@ _Example:_
 
 | matrix |   result   |   | matrix |   result   |
 |:------:|:----------:|:-:|:------:|:----------:|
-| <table><tbody><tr><td>`ha`</td><td>fifi</td><td>ho</td><td>hi</td></tr><tr><td>fo</td><td>`ha`</td><td>hi</td><td>xx</td></tr><tr><td>xxx</td><td>ho</td><td>`ha`</td><td>xx</td></tr></tbody></table> | ha, ha, ha |   | <table><tbody><tr><td>s</td><td>qq</td><td>`s`</td></tr><tr><td>pp</td><td>pp</td><td>`s`</td></tr><tr><td>pp</td><td>qq</td><td>`s`</td></tr></tbody></table> | s, s, s |
+| <table><tbody><tr><td><b>ha</b></td><td>fifi</td><td>ho</td><td>hi</td></tr><tr><td>fo</td><td><b>ha</b></td><td>hi</td><td>xx</td></tr><tr><td>xxx</td><td>ho</td><td><b>ha</b></td><td>xx</td></tr></tbody></table> | ha, ha, ha |   | <table><tbody><tr><td>s</td><td>qq</td><td><b>s</b></td></tr><tr><td>pp</td><td>pp</td><td><b>s</b></td></tr><tr><td>pp</td><td>qq</td><td><b>s</b></td></tr></tbody></table> | s, s, s |
 
 ### Problem 4. Binary search
 *	Write a program, that reads from the console an array of `N` integers and an integer `K`, sorts the array and using the method `Array.BinSearch()` finds the largest number in the array which is &#8804; `K`. 
@@ -39,6 +39,6 @@ _Example:_
 
 | matrix |   result   |
 |:------:|:----------:|
-| <table><tbody><tr><td>1</td><td>`3`</td><td>2</td><td>2</td><td>2</td><td>4</td></tr><tr><td>`3`</td><td>`3`</td><td>`3`</td><td>2</td><td>4</td><td>4</td></tr><tr><td>4</td><td>`3`</td><td>1</td><td>2</td><td>`3`</td><td>`3`</td></tr><tr><td>4</td><td>`3`</td><td>1</td><td>`3`</td><td>`3`</td><td>1</td></tr><tr><td>4</td><td>`3`</td><td>`3`</td><td>`3`</td><td>1</td><td>1</td></tr></tbody></table> | 13 |
+| <table><tbody><tr><td>1</td><td><b>s</b></td><td>2</td><td>2</td><td>2</td><td>4</td></tr><tr><td><b>s</b></td><td><b>s</b></td><td><b>s</b></td><td>2</td><td>4</td><td>4</td></tr><tr><td>4</td><td><b>s</b></td><td>1</td><td>2</td><td><b>s</b></td><td><b>s</b></td></tr><tr><td>4</td><td><b>s</b></td><td>1</td><td><b>s</b></td><td><b>s</b></td><td>1</td></tr><tr><td>4</td><td><b>s</b></td><td><b>s</b></td><td><b>s</b></td><td>1</td><td>1</td></tr></tbody></table> | 13 |
 
 _Hint: you can use the algorithm [Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search) or [Breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search)._
