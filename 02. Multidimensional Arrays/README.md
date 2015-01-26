@@ -37,4 +37,6 @@ _Example:_
 
 _Example:_
 
+<table><tbody><tr><td>1</td><td>**3**</td><td>2</td><td>2</td><td>2</td><td>4</td></tr><tr><td>**3**</td><td>**3**</td><td>**3**</td><td>2</td><td>4</td><td>4</td></tr><tr><td>4</td><td>**3**</td><td>1</td><td>2</td><td>**3**</td><td>**3**</td></tr><tr><td>4</td><td>**3**</td><td>1</td><td>**3**</td><td>**3**</td><td>1</td></tr><tr><td>4</td><td>**3**</td><td>**3**</td><td>**3**</td><td>1</td><td>1</td></tr></tbody></table>
+
 _Hint: you can use the algorithm [Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search) or [Breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search)._
