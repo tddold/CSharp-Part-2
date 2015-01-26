@@ -16,9 +16,10 @@ _Example:_
 
 _Example:_
 
-| matrix |   result   |
-|:------:|:----------:|
-| <table><tbody><tr><td>ha</td><td>fifi</td><td>ho</td><td>hi</td></tr><tr><td>fo</td><td>ha</td><td>hi</td><td>xx</td></tr><tr><td>xxx</td><td>ho</td><td>ha</td><td>xx</td></tr></tbody></table> | ha, ha, ha |
+| matrix |   result   | | matrix |   result   |
+|:------:|:----------:|-|:------:|:----------:|
+| <table><tbody><tr><td style="background-color: #ccc;">ha</td><td>fifi</td><td>ho</td><td>hi</td></tr><tr><td>fo</td><td style="background-color: #ccc;">ha</td><td>hi</td><td>xx</td></tr><tr><td>xxx</td><td>ho</td><td style="background-color: #ccc;">ha</td><td>xx</td></tr></tbody></table> | ha, ha, ha |
+| <table><tbody><tr><td>s</td><td>qq</td><td>s</td></tr><tr><td>pp</td><td>pp</td><td>s</td></tr><tr><td>pp</td><td>qq</td><td>s</td></tr></tbody></table> | s, s, s |
 
 ### Problem 4. Binary search
 *	Write a program, that reads from the console an array of `N` integers and an integer `K`, sorts the array and using the method `Array.BinSearch()` finds the largest number in the array which is <= `K`. 
