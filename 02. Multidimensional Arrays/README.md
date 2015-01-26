@@ -39,6 +39,6 @@ _Example:_
 
 | matrix |   result   |
 |:------:|:----------:|
-| <table><tbody><tr><td>1</td><td><b>s</b></td><td>2</td><td>2</td><td>2</td><td>4</td></tr><tr><td><b>s</b></td><td><b>s</b></td><td><b>s</b></td><td>2</td><td>4</td><td>4</td></tr><tr><td>4</td><td><b>s</b></td><td>1</td><td>2</td><td><b>s</b></td><td><b>s</b></td></tr><tr><td>4</td><td><b>s</b></td><td>1</td><td><b>s</b></td><td><b>s</b></td><td>1</td></tr><tr><td>4</td><td><b>s</b></td><td><b>s</b></td><td><b>s</b></td><td>1</td><td>1</td></tr></tbody></table> | 13 |
+| <table><tbody><tr><td>1</td><td><b>3</b></td><td>2</td><td>2</td><td>2</td><td>4</td></tr><tr><td><b>3</b></td><td><b>3</b></td><td><b>3</b></td><td>2</td><td>4</td><td>4</td></tr><tr><td>4</td><td><b>3</b></td><td>1</td><td>2</td><td><b>3</b></td><td><b>3</b></td></tr><tr><td>4</td><td><b>3</b></td><td>1</td><td><b>3</b></td><td><b>3</b></td><td>1</td></tr><tr><td>4</td><td><b>3</b></td><td><b>3</b></td><td><b>3</b></td><td>1</td><td>1</td></tr></tbody></table> | 13 |
 
 _Hint: you can use the algorithm [Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search) or [Breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search)._
