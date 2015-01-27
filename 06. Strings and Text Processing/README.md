@@ -52,9 +52,11 @@ _The expected result:_ We are living in a YELLOW SUBMARINE. We don't have ANYTHI
 ### Problem 8.
 *	Write a program that extracts from a given text all sentences containing given **word**.
 
-_Example:_ The word is `in`
+_Example:_
 
-_The text is:_ We are living in a yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.
+_The word is:_ **in**
+
+_The text is:_ We are living **in** a yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the day. We will move out of it **in** 5 days.
 
 _The expected result is:_ We are living in a yellow submarine. We will move out of it in 5 days.
 
