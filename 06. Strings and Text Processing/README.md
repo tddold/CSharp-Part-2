@@ -95,7 +95,7 @@ _Example:_
 
 |                 URL                  |                                     Information                                     |
 |:------------------------------------:|:----------------------------------------------------------------------------------------:|
-| `http://www.devbg.org/forum/index.php` | [protocol] = `http` <br> [server] = `www.devbg.org` <br> [resource] = `/forum/index.php` |
+| `http://telerikacademy.com/Courses/Courses/Details/212` | [protocol] = `http` <br> [server] = `telerikacademy.com` <br> [resource] = `/Courses/Courses/Details/212` |
 
 ### Problem 13. Reverse sentence
 *	Write a program that reverses the words in given sentence.
