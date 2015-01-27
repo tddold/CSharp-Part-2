@@ -95,7 +95,7 @@ _Example:_
 
 |                 URL                  |                                     Information                                     |
 |:------------------------------------:|:----------------------------------------------------------------------------------------:|
-| http://www.devbg.org/forum/index.php | [protocol] = "http" <br> [server] = "www.devbg.org" <br> [resource] = "/forum/index.php" |
+| `http://www.devbg.org/forum/index.php` | [protocol] = `http` <br> [server] = `www.devbg.org` <br> [resource] = `/forum/index.php` |
 
 ### Problem 13. Reverse sentence
 *	Write a program that reverses the words in given sentence.
@@ -184,4 +184,5 @@ _Example input:_
 _Output:_ 
 
 Title: News
+
 Text: Telerik Academy aims to provide free real-world practical training for young people who want to turn into skilful .NET software engineers.
