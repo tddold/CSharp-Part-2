@@ -25,7 +25,7 @@ Homework: Text Files
 _Example:_
 
 | input | output |
-|:-----:|:------:|
+|-------|--------|
 | 4 <br> 2 3 3 4 <br> 0 2 3 4 <br> 3 7 1 2 <br> 4 3 3 2 | 17 |
 
 ### Problem 6. Save sorted names
